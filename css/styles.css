@@ -12,11 +12,24 @@ body {
   font-family: var(--main-font);
   background-color: var(--primary-white-color);
 }
-
+a {
+  text-decoration: none;
+}
 .address {
   font-style: normal;
 }
 /* ================= HEADER ================= */
+.logo {
+  font-family: var(--secondary-font);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--acent-color);
+}
+.logo-styles-color {
+  color: var(--title-text-color);
+}
 .nav-list,
 .tel,
 .mail {
@@ -80,6 +93,9 @@ body {
 
   /* color: #757575; */
 }
+/* ================= END ABOUT US ================= */
+
+/* ================= SERVICES ================= */
 .services-title {
   font-weight: 700;
   font-size: 36px;
@@ -87,6 +103,12 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--title-text-color);
+}
+/* ================= END SERVICES ================= */
+
+/* ================= OUR TEAM ================= */
+.our-team {
+  background-color: #f5f4fa;
 }
 .our-team-title {
   font-weight: 700;
@@ -112,6 +134,12 @@ body {
   letter-spacing: 0.03em;
   color: var(--text-color);
 }
+/* ================= END OUR TEAM ================= */
+
+/* ================= FOOTER ================= */
+.footer {
+  background-color: #2f303a;
+}
 .address-map {
   font-weight: 400;
   font-size: 14px;
@@ -119,3 +147,34 @@ body {
   letter-spacing: 0.03em;
   color: var(--text-secondary-color);
 }
+/* ================= END FOOTER ================= */
+
+/* ================= PORTFOLIO  ================= */
+.portfolio-button-list-item {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--title-text-color);
+}
+.portfolio-button-list-item :hover,
+.portfolio-button-list-item :focus {
+  background-color: var(--acent-color);
+  color: var(--text-secondary-color);
+}
+.portfolio-work-name {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--title-text-color);
+}
+.portfolio-work-services {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: var(--text-color);
+}
+/* ================= END PORTFOLIO  ================= */
