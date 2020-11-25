@@ -27,24 +27,31 @@ a {
   letter-spacing: 0.03em;
   color: var(--acent-color);
 }
-.logo-styles-color {
+.logo-styles-color-header {
   color: var(--title-text-color);
 }
 .nav-list,
-.tel,
-.mail {
+.address-list {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--title-text-color);
 }
+.address-list .mail,
+.address-list .tel {
+  color: var(--text-color);
+}
+.nav-list :visited {
+  color: var(--title-text-color);
+}
+.address-list :visited {
+  color: var(--text-color);
+}
 .nav-list :hover,
 .nav-list :focus,
-.tel :hover,
-.mail :hover,
-.tel :focus,
-.mail :focus {
+.address-list :focus,
+.address-list :hover {
   color: var(--acent-color);
 }
 /* ================= END HEADER ================= */
@@ -90,8 +97,7 @@ a {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-
-  /* color: #757575; */
+  color: #757575;
 }
 /* ================= END ABOUT US ================= */
 
@@ -147,10 +153,26 @@ a {
   letter-spacing: 0.03em;
   color: var(--text-secondary-color);
 }
+.address-map :visited {
+  color: var(--text-secondary-color);
+}
+.address-list-footer {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+.address-list-footer .mail,
+.address-list-footer .tel {
+  color: var(--text-color);
+}
 /* ================= END FOOTER ================= */
 
 /* ================= PORTFOLIO  ================= */
-.portfolio-button-list-item {
+
+button {
+  font-family: var(--main-font);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
@@ -176,5 +198,8 @@ a {
   line-height: 1.87;
   letter-spacing: 0.03em;
   color: var(--text-color);
+}
+.logo-styles-color-footer {
+  color: var(--text-secondary-color);
 }
 /* ================= END PORTFOLIO  ================= */
