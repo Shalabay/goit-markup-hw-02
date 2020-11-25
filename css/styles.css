@@ -179,6 +179,7 @@ button {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--title-text-color);
+  background-color: #f5f4fa;
 }
 .portfolio-button-list-item :hover,
 .portfolio-button-list-item :focus {
