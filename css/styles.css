@@ -15,10 +15,74 @@ body {
 a {
   text-decoration: none;
 }
+.list {
+  list-style: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  margin: 0;
+}
+
+img {
+  display: block;
+}
+.container {
+  width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
 .address {
   font-style: normal;
 }
 /* ================= HEADER ================= */
+.header {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+.header .container {
+  display: flex;
+  align-items: center;
+}
+.header .logo {
+  margin-right: 93px;
+}
+.nav-link:not(:last-child) {
+  margin-right: 50px;
+}
+.site-nav {
+  display: flex;
+  align-items: center;
+}
+.nav-list {
+  display: flex;
+}
+.address-list {
+  display: flex;
+}
+.header .address {
+  display: flex;
+  align-items: center;
+}
+.header .address {
+  margin-left: auto;
+}
+.address-list-link:not(:last-child) {
+  margin-right: 50px;
+}
 .logo {
   font-family: var(--secondary-font);
   font-weight: 700;
